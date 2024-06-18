@@ -13,23 +13,33 @@ nav {
     flex: 1 1 auto;          /* Allow the links to grow and shrink */
     text-align: center;      /* Center the text within the links */
     margin: 5px;             /* Optional: Margin around the links */
+    font-weight: bold;
+    color: cadetblue;
   }
   
   nav a:hover {
     background-color: #ddd;  /* Optional: Background color on hover */
   }
 
-  h1 {
-    text-align: center;
-  }
-
   h2 {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+    font-weight: bold;
   }
-
- #home {
-  position: sticky;
-  top:0px;
-  left: 0px;
-
- }
+  p {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  #img {
+    display: flex;
+    justify-content: space-around;
+  }
+  #home {
+    position: sticky;
+    top:0px;
+    left: 0px;
+  
+   }
